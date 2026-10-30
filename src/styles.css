@@ -26,8 +26,8 @@ nav{display:flex;align-items:center;gap:36px;font-size:15px}
 nav a{position:relative;padding-block:15px;transition:color .2s}
 nav a:after{content:'';position:absolute;bottom:7px;left:0;right:0;height:1px;background:var(--red);transform:scaleX(0);transform-origin:left;transition:transform .3s var(--ease)}
 nav a:hover:after,nav a:focus-visible:after{transform:scaleX(1)}
-.nav-contact{margin-left:32px;display:flex;align-items:center;gap:22px}
-.nav-contact span{font-size:24px;line-height:1}
+.nav-contact{margin-left:32px;display:flex;align-items:center;gap:10px}
+.nav-contact svg{width:16px;height:16px}
 .menu-toggle{display:none}
 .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
 .hero-inner{padding-top:58px;position:relative}
