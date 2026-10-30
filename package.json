@@ -1,0 +1,13 @@
+{
+  "name": "forgehacks-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "npm run build && node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs",
+    "check": "node --check src/main.js && node --check src/hardware.js && node --check src/mesh-canvas.js && node --check src/audience-chart.js && node --check scripts/build.mjs && node --check scripts/serve.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
